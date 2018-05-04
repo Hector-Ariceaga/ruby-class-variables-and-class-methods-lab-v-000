@@ -43,7 +43,7 @@ class Song
   def self.artist_count
     artist_count = {}
     
-    @@artists.map do |artist|
+    @@artists.collect do |artist|
       if artist_count.include?(artist)
         artist_count[artist] += 1
       else
