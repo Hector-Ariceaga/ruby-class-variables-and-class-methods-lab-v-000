@@ -47,7 +47,7 @@ class Song
       if artist_count.include?(arist)
         artist_count[artist] += 1
       else
-        artist_count[arist] = 1
+        artist_count[artist] = 1
       end
     end
   end
