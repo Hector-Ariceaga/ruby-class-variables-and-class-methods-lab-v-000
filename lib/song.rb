@@ -44,7 +44,7 @@ class Song
     artist_count = {}
     
     @@artists.map do |artist|
-      if artist_count.include?(arist)
+      if artist_count.include?(artist)
         artist_count[artist] += 1
       else
         artist_count[artist] = 1
